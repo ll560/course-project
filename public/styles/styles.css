@@ -14,6 +14,19 @@ background-color: whitesmoke;
 a:link {
     color:white
 }
+a:visited {
+    color:rgb(202, 202, 202)
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 
 /*top logo*/
 .image1 {
@@ -23,30 +36,48 @@ a:link {
     border-bottom: 0%;
     padding-bottom: 0%;
     display: block;
+    background-image: url(CodeSquad-Comics-logo.png);
+    position: absolute;
 }
+
+
 .nav-header {
     background-color: #063C5E;
     margin-top: 0%;
-    border-top: 0%;
-    padding-top: 0%;
+    margin-bottom: 5%;
+    padding-top: 15%;
+    padding-bottom: 1%
+    
+}
+
+ul.no-bullets {
+    list-style-type:none;
+
 }
 
 
-
+.container {
+    margin-top: 0%    
+}
 
 
 /*index page*/
 .image2 { 
-    box-sizing: border-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
     height: auto;
-    padding: 50px blue;
-    border-style: 100px solid white;
-    border-radius: 8px;
-    
-         
+    border-radius: 25px;
+    border-color: yellow;
+    border-style: solid
 
+}
+
+.card-bottom {
+    background-color: #fff;
+    background-size: 100%;
+    padding: 15px 30px;
+    border: 5px solid yellow;
+    border-bottom-left-radius: 40px;
 }
