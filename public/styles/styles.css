@@ -1,83 +1,77 @@
 
-body {width: 100%;
-max-width: 100vw;
-margin: 0;
-overflow-x:hidden;
-background-color: whitesmoke;
-}
-
-/*universal link*/
-* {
-    box-sizing: border-box;
+body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    overflow-x:hidden;
+    background-color: whitesmoke;
 }
 
 a:link {
-    color:white
+    color:white;
 }
 a:visited {
-    color:rgb(202, 202, 202)
+    color:rgba(202, 202, 202, 0.801)
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 0;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-/*top logo*/
-.image1 {
-    width:50%;
-    border-right-width: 100% #063C5E;
-    margin-bottom: 0%;
-    border-bottom: 0%;
-    padding-bottom: 0%;
-    display: block;
-    background-image: url(CodeSquad-Comics-logo.png);
-    position: absolute;
-}
-
-
-.nav-header {
-    background-color: #063C5E;
-    margin-top: 0%;
-    margin-bottom: 5%;
-    padding-top: 15%;
-    padding-bottom: 1%
+.nav-header{
+    /* background-image: url('CodeSquad-Comics-logo.png'); */
+    padding: 0px;
     
+    margin-top: 0px;
+    height: auto;
+    background-position:absolute;
+}   
+
+.container1 { /*image stlying*/
+    display: block;
+    padding-top:80px;
+    padding-left: 45px;
+    padding-bottom: 20px;  
+    margin: 0px 0px 30px 0px; 
+    background-position:static;
+    background-color: #063C5E;
+    
+    background-image: url('CodeSquad-Comics-logo.png');
+    background-size:280px; /*changes image size*/
+    
+    background-repeat: no-repeat;
 }
 
-ul.no-bullets {
-    list-style-type:none;
-
+.container1 li{
+    list-style-type: none; /* no bullets*/
 }
 
-
-.container {
-    margin-top: 0%    
+.card {
+    border:5px #fccf14 solid;
+    margin:20px 70px;
+    border-radius:40px;   
 }
-
 
 /*index page*/
-.image2 { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: auto;
-    border-radius: 25px;
-    border-color: yellow;
-    border-style: solid
+.card-top { 
+    font-family: 'Times New Roman', Times, serif;
+    color: #fccf14;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px 400px 0px; 
+    background-color: #063C5E;
+    border-radius: 37px 37px 0px 0px;
+    border-bottom: #fccf14 5px solid;
 
+    background-image: url('fun-home.jpg');
+    background-size: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .card-bottom {
     background-color: #fff;
     background-size: 100%;
     padding: 15px 30px;
-    border: 5px solid yellow;
     border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;    
 }
+
+
