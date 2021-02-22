@@ -134,3 +134,16 @@ a:active{
      /* padding:0px; */
      /* margin:0px; */
 }
+
+
+/* admin page */
+.admin-body{
+     border: 5px solid #063C5E;
+     margin-bottom: 20px;
+     background-color: #FFFFFF;
+     width: 70%;
+     background-position: center center;
+     margin-left: 70px;
+
+     padding-bottom: 30px;
+}
