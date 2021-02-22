@@ -147,3 +147,17 @@ a:active{
 
      padding-bottom: 30px;
 }
+
+.create-body{
+     border: 5px solid #063C5E;
+     margin-bottom: 20px;
+     background-color: #FFFFFF;
+     width: 70%;
+     background-position: center center;
+     margin-left: 70px;
+
+     padding-bottom: 30px;
+     padding-left:40px;
+     
+
+}
