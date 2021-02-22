@@ -158,6 +158,22 @@ a:active{
 
      padding-bottom: 30px;
      padding-left:40px;
-     
+}
+/*index page*/
+.intro{
+     border: 5px solid #063C5E;
+     padding:30px;
+     background-color: #FFFFFF;
+     width: 70%;
+     background-position: center center;
+     margin-left: 70px;
+}
 
+.collection-body{
+     border: 5px solid #063C5E;
+     padding:30px;
+     margin: 70px;
+     width: 70%; 
+     background-position: center center;
+     background: #FFFFFF;
 }
