@@ -4,10 +4,8 @@ body {
      max-width: 100vw;
      margin: 0;
      overflow-x:hidden;
-     background-image: linear-gradient(#FFFFFF, #009E9E);
-     
+     background-image: linear-gradient(#FFFFFF, #009E9E); 
  }
-
 
  a:link {
      color:white;
@@ -78,7 +76,6 @@ a:active{
       margin:60px;  
       max-width: 610px;   
       min-width: 610px;
-      
 }
 
 
@@ -159,21 +156,4 @@ a:active{
      padding-bottom: 30px;
      padding-left:40px;
 }
-/*index page*/
-.intro{
-     border: 5px solid #063C5E;
-     padding:30px;
-     background-color: #FFFFFF;
-     width: 70%;
-     background-position: center center;
-     margin-left: 70px;
-}
 
-.collection-body{
-     border: 5px solid #063C5E;
-     padding:30px;
-     margin: 70px;
-     width: 70%; 
-     background-position: center center;
-     background: #FFFFFF;
-}
