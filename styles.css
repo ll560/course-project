@@ -133,7 +133,6 @@ ul.list{
 
 .container4 {
      margin:20px;
-     border: 5px solid wheat;
 
      height:150px;
      background-image: url('/public/images/CodeSquad-logo-b.png');
@@ -148,7 +147,7 @@ ul.list{
 /* admin page */
 .admin-body{
      border: 5px solid #063C5E;
-     margin-bottom: 20px;
+     margin: 30px;
      background-color: #FFFFFF;
      width: 70%;
      background-position: center center;
@@ -156,6 +155,34 @@ ul.list{
      padding-bottom: 30px;
 }
 
+.admin-title{
+     color: #063C5E;
+     text-align: center;
+     padding:20px;
+}
+.table{
+     width: 70%;
+}
+.table, th,td {
+     border:2px #063C5E solid;
+     padding:5px;
+     margin-left:100px;
+     border-collapse: collapse;
+     
+}
+
+tr:nth-child(odd){background-color: rgb(175, 175, 175);} 
+
+.button1{
+     background-color: #FCCF14;
+     background-attachment: fixed;
+}
+
+.button2{
+     background-color: #063C5E;
+     color:white;
+}
+/* Create page */
 .create-body{
      border: 5px solid #063C5E;
      margin-bottom: 20px;
