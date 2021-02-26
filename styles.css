@@ -55,7 +55,8 @@ a:active{
      background-position: left;
      background-repeat: no-repeat;
      display: flex;
-     justify-content: flex-end;   
+     justify-content: flex-end; 
+     flex-wrap: wrap;  
 }
 
  .container1 li{
@@ -118,19 +119,23 @@ ul.list{
 }
 
 .container2{
-     margin:20px;   
+     margin:20px; 
+
 }
 
 
 
 .container3{
-     margin:20px;  
+     margin:20px;
+      
 }
 
 
 .container4 {
      margin:20px;
-     
+     border: 5px solid wheat;
+
+     height:150px;
      background-image: url('/public/images/CodeSquad-logo-b.png');
      background-size: 120px;
      background-repeat: no-repeat;
