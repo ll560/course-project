@@ -11,11 +11,13 @@ a:link {
     text-decoration: none;
 }
 
-.all-images__link{
-
-    :purple;
-
+:root{
+    --textcolor:purple;
 }
+.all-images__link{
+    color:purple;
+}
+
 a:visited {
     color:rgba(202, 202, 202, 0.801)
 }
@@ -104,14 +106,11 @@ a:active{
 
 .container3{
     margin:20px;
-    display:flex;
-    flex-direction: row;
-    padding: 
+    
+    border: yellow 5px solid;
 }
 
-i{
-    padding:20px;
-}
+
 
 
 .container4 {
@@ -145,8 +144,6 @@ i{
     height:auto; 
     background-position: center center;
     background: #FFFFFF;
-    display:flex;
-    
 }
 
 .title{
@@ -159,27 +156,36 @@ i{
     color: #063C5E;
 }
 
+.all-images{
+    
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-content:baseline;
+}
+
 .fun-home{
     background-image: url('fun-home.jpg');
-    /* background-position: absolute; */
+
     background-size: 160px;
     background-repeat: no-repeat;
     width:160px;
     height:250px;
     margin-bottom: 80px; 
+    border: blue 5px solid;
 }
 
-.fun{
-    width: 160px;
+.comic-text{ width: 160px;
     height: 251px;
-    position: absolute;
-    padding-top: 225px;
+    padding-top: 235px;
+    
+
 }
 
 
 .watchmen{
     background-image: url('watchmen.jpg');
-    /* background-position: absolute; */
+   
     background-size: 160px;
     background-repeat: no-repeat;
     width:160px;
@@ -188,8 +194,11 @@ i{
 }
 
 .watch{
-    top:245px;
-    position:relative;
+    width: 160px;
+    height: 251px;
+    position: absolute;
+    padding-top: 225px;
+
 }
 
 .hunter{
@@ -199,7 +208,7 @@ i{
     width:160px;
     height:250px;
     margin-bottom: 80px;
-    margin-top: -16px;
+    /* margin-top: -16px; */
 }
 
 .hunt{
@@ -244,4 +253,57 @@ i{
     height:250px;
     margin-bottom: 80px;
     margin-top: -10px;    
+}
+
+.black-panther{
+    background-image: url('black-panther.jpg');
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width:160px;
+    height:250px;
+    margin-bottom: 80px;
+}
+
+.walking{
+    background-image: url('the-walking-dead.jpg');
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width:160px;
+    height:250px;
+    margin-bottom: 80px;
+}
+
+.march{
+    background-image: url('march.jpg');
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width:160px;
+    height:250px;
+    margin-bottom: 80px;
+}
+
+.batman{
+    background-image: url('batman.jpg');
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width:160px;
+    height:250px;
+    margin-bottom: 80px;
+}
+
+.queer{
+    background-image: url('queer.jpg');
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width:160px;
+    height:250px;
+    margin-bottom: 80px;
+}
+.parable-class{
+    background-image: url('parable-of-the-sower.jpg');
+    background-size: 160px;
+    background-repeat: no-repeat;
+    width:160px;
+    height:250px;
+    margin-bottom: 80px;
 }
