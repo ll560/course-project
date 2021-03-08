@@ -75,6 +75,42 @@ a:active{
     flex-wrap: wrap;  
 }
 
+@media screen and (min-width:320px) and (max-width:768px){
+    .fa {/*header*/
+        color:white;
+        padding: 10px 60px;
+        font-size: 3rem
+    }
+    ul{
+        display:none;
+    }
+    #h3{
+        font-size: 16px;
+        color:#FCCF14;
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+
+
+@media screen and (min-width:769px){
+    .fa {
+        display:none;
+    }
+    ul{
+        margin-block-start:0px;
+    }
+    #h3 {
+        font-size: 16px;
+        color:#FCCF14;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;     
+    }   
+}
+
 .container1 li{
     list-style-type: none; /* no bullets*/
     display: inline-block;
@@ -102,14 +138,8 @@ a:active{
     color:#FFFFFF;
 }
 
-#h3 {
-    font-size: 16px;
-    color:#FCCF14;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;       
-}
+
+
 
 .container2{
     margin:20px; 
@@ -190,8 +220,6 @@ a:active{
 .comic-text{ width: 160px;
     height: 251px;
     padding-top: 235px;
-    
-
 }
 
 

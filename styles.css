@@ -34,9 +34,7 @@ a:active{
      
      width: 100%;
      height:20px;
-
-
- }   
+}   
  
  .container1 { /*image stlying*/
      display:block;
@@ -58,12 +56,61 @@ a:active{
      justify-content: flex-end; 
      flex-wrap: wrap;  
 }
+@media screen and (min-width:320px) and (max-width:768px){
+     .fa {/*header*/
+         color:white;
+         padding: 10px 60px;
+         font-size: 3rem
+     }
+     ul{
+         display:none;
+     }
+     #h3{
+         font-size: 16px;
+         color:#FCCF14;
+         display:flex;
+         flex-direction:column;
+     }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+     .fa {   
+          color:white;
+          padding: 10px 60px;
+          font-size: 3rem
+     }
+     ul{
+          display:none;
+     }
+     #h3{
+          font-size: 16px;
+          color:#FCCF14;
+          display:flex;
+          flex-direction:column;
+     }
+}
+ 
+@media screen and (min-width:1024px){
+     .fa {
+         display:none;
+     }
+     ul{
+         margin-block-start:0px;
+     }
+     #h3 {
+         font-size: 16px;
+         color:#FCCF14;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-evenly;     
+     }   
+}
 
  .container1 li{
      list-style-type: none; /* no bullets*/
      display: inline-block;
      padding: 30px 35px 5px 20px;    
- }
+}
 
 .h1 {
      color: #063C5E;
@@ -76,23 +123,28 @@ a:active{
 }
 
 /* about page */
+
  .about-collection {
       padding: 30px;
       border: 5px #063C5E solid;
       background-position: center center ;
       background-color:#FFFFFF;
       width:70%;
+      height:auto;
       margin:60px;  
-      max-width: 610px;   
-      min-width: 610px;
+      /* max-width: 610px;  */
+      /* min-width: 610px; */
       display: flex;
       flex-direction: column;
+      justify-content: center;
 }
 
 ul.list{
      display: flex;
      flex-direction: column;
-     margin-left: 210px;  
+     
+     margin-left: 140px;   
+     /* border: 2px solid aqua; */
 }
 
 
@@ -108,26 +160,14 @@ ul.list{
      color:#FFFFFF;
 }
 
-#h3 {
-     font-size: 16px;
-     color:#FCCF14;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-evenly; 
-       
-}
+
 
 .container2{
      margin:20px; 
-
 }
 
-
-
 .container3{
-     margin:20px;
-      
+     margin:20px;      
 }
 
 
@@ -167,8 +207,7 @@ ul.list{
      border:2px #063C5E solid;
      padding:5px;
      margin-left:100px;
-     border-collapse: collapse;
-     
+     border-collapse: collapse;  
 }
 
 tr:nth-child(odd){background-color: rgb(175, 175, 175);} 
