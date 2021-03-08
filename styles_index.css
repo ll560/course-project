@@ -1,3 +1,7 @@
+/* :root{ */
+    /* --textcolor:red; */
+/* } */
+
 body {
     width: 100%;
     max-width: 100vw;
@@ -11,20 +15,29 @@ a:link {
     text-decoration: none;
 }
 
-:root{
-    --textcolor:purple;
-}
+
 .all-images__link{
-    color:purple;
+    color:rgb(156, 46, 156);
+
 }
 
-a:visited {
+.container1 li a:visited {
+    color:rgba(202, 202, 202, 0.801)
+}
+.container2 a:visited {
+    color:rgba(202, 202, 202, 0.801)
+}
+.container3 a:visited {
     color:rgba(202, 202, 202, 0.801)
 }
 
 a:hover{
     color:yellow;
     font-weight: bold;
+}
+
+.all-images a:hover{
+    color:green;
 }
 
 a:active{
@@ -100,17 +113,17 @@ a:active{
 
 .container2{
     margin:20px; 
+    
 }
+
 
 
 
 .container3{
     margin:20px;
     
-    border: yellow 5px solid;
+    
 }
-
-
 
 
 .container4 {
@@ -172,7 +185,6 @@ a:active{
     width:160px;
     height:250px;
     margin-bottom: 80px; 
-    border: blue 5px solid;
 }
 
 .comic-text{ width: 160px;
