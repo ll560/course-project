@@ -60,7 +60,7 @@ a:active{
      .fa {/*header*/
          color:white;
          padding: 10px 60px;
-         font-size: 3rem
+         font-size: 3rem;
      }
      ul{
          display:none;
@@ -72,11 +72,12 @@ a:active{
          flex-direction:column;
      }
 }
+
 @media screen and (min-width:769px) and (max-width:1024px){
      .fa {   
           color:white;
           padding: 10px 60px;
-          font-size: 3rem
+          font-size: 3rem;
      }
      ul{
           display:none;
@@ -229,7 +230,7 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      width: 70%;
      background-position: center center;
      margin-left: 70px;
-
+     margin-top: 30px;
      padding-bottom: 30px;
      padding-left:40px;
 }
