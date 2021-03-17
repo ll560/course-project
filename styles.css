@@ -93,6 +93,7 @@ a:active{
 @media screen and (min-width:1024px){
      .fa {
          display:none;
+         
      }
      ul{
          margin-block-start:0px;
