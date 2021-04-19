@@ -5,15 +5,15 @@ body {
      margin: 0;
      overflow-x:hidden;
      background-image: linear-gradient(#FFFFFF, #009E9E); 
- }
+}
 
  a:link {
      color:white;
      text-decoration: none;
- }
+}
  a:visited {
      color:rgba(202, 202, 202, 0.801)
- }
+}
  
 a:hover{
      color:yellow;
@@ -56,6 +56,7 @@ a:active{
      justify-content: flex-end; 
      flex-wrap: wrap;  
 }
+
 @media screen and (min-width:320px) and (max-width:768px){
      .fa {/*header*/
          color:white;
@@ -90,10 +91,10 @@ a:active{
      }
 }
  
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) and (max-width:1650px){
      .fa {
          display:none;
-         
+         color: #063C5E;
      }
      ul{
          margin-block-start:0px;
@@ -124,7 +125,7 @@ a:active{
      text-align: center;
 }
 
-/* about page */
+/*-----about page----------------------------*/
 
  .about-collection {
       padding: 30px;
@@ -146,7 +147,7 @@ ul.list{
      flex-direction: column;
      
      margin-left: 140px;   
-     /* border: 2px solid aqua; */
+     
 }
 
 
@@ -162,8 +163,6 @@ ul.list{
      color:#FFFFFF;
 }
 
-
-
 .container2{
      margin:20px; 
 }
@@ -171,7 +170,6 @@ ul.list{
 .container3{
      margin:20px;      
 }
-
 
 .container4 {
      margin:20px;
@@ -186,7 +184,7 @@ ul.list{
 
 
 
-/* admin page */
+/*-------admin page--------------------- */
 .admin-body{
      border: 5px solid #063C5E;
      margin: 30px;
@@ -223,7 +221,7 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      background-color: #063C5E;
      color:white;
 }
-/* Create page */
+/*----Create page-------------------------------*/
 .create-body{
      border: 5px solid #063C5E;
      margin-bottom: 20px;
@@ -236,3 +234,47 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      padding-left:40px;
 }
 
+/* ---- Login page ----------------------------------*/
+.login-container {
+     border: 5px solid #063C5E;
+     background-color: #FFFFFF;
+     margin: 60px;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+     padding-bottom: 30px;
+}
+
+.login-title{
+     text-align: center;
+     color: #063C5E;
+}
+.login-email-pass{
+     text-align:center;
+}
+
+.login-email{
+     padding-bottom:30px;
+}
+.login-password{
+     padding-bottom: 10px;
+}
+/*------update page----------------------------*/
+.update-container{
+     border: 5px solid #063C5E;
+     background-color: #FFFFFF;
+     width: 75%;
+     margin:60px;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+     padding-bottom: 30px;
+}
+
+/*-----create page----------------------------*/
+.create-body-title{
+     color:#063C5E;
+     text-align:center;
+}

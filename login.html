@@ -2,49 +2,78 @@
 <html lang="en-us">
     <head>
         <title>CodeSquad Comics</title>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/ecf487572c.js" crossorigin="anonymous"></script>
     </head>
 <body>
-    <img src="CodeSquad-Comics-logo.png"  alt="CodeSquad Comics logo" width="800">
-    <ul>
-        <li><a href="https://example.com/" target="_blank" rel="noopener noreferrer">HOME</a></li> <!--Is this the correct way to write a secure external link?-->
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="">LOGIN</a></li>
-    </ul>
-    <h1>LOGIN</h1>
+    <div class="body-color">
+
+        <div class="container1">
+            <i class="fa fa-bars"></i>
+            <ul>
+                <li><a href="index.html" target="_blank" rel="noopener noreferrer">HOME</a></li> <!--Is this the correct way to write a secure external link?-->
+                <li><a href="#" target="_blank" rel="noopener noreferrer">ABOUT</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </div>
+
+    <div class= "login-container">
+    <div class="login-title"><h1>LOGIN</h1></div>
     <form action="https://www.w3schools.com/action_page.php"> 
-        
-        <div> 
+    <div class="login-email-pass">    
+        <div class="login-email"> 
             <label for="email address">Email address:</label>
             <input type="email address" id="email address" name="email address" value="Email">
         </div>
-        <br>
-        <div> 
+        
+        <div class="login-password"> 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" value="Password">
         </div>
         <br>
-            <input type="submit" value="Submit">  
+    </div>    
+        <input type="submit" class="button1" value="Submit">  
+        
+    </div>
     </form>
-    <h3>VISIT US</h3>
-
-    CodeSquad Comics <br>
-    123 Dorchester Avenue <br>
-    Boston, MA 02124
-
-<h3>LINKS</h3>
-    <a href="https://example.com/" target="_blank" rel="noopener noreferrer">Home</a><br> 
-    <a href="about.html">About</a><br>
-    <a href="login.html">Login</a><br>
-
-<h3>FOLLOW US</h3>
-<a href="https://www.facebook.com/" rel="external">Facebook</a><br>
-<a href="https://www.instagram.com/">Instagram</a><br>
-<a href="https://www.twitter.com/">Twitter</a><br>
-
-<h3>A PRODUCT OF</h3>
-
-<img src="CodeSquad-logo-a.png"  alt="CodeSquad logo" width="800">
-
+    </div>      
+    <div class="footer">    
+        <div id="h3"> 
+        
+            <div class="container2">
+                <h3>VISIT US</h3>
+    
+                <div class="text-footer"><p>CodeSquad Comics <br>
+                123 Dorchester Avenue <br>
+                Boston, MA 02124</p>
+                </div>
+            </div>
+        
+            
+        
+            <div class="container2">
+            <h3>LINKS</h3>
+            <a href="index.html">Home</a><br>
+            <a href="#">About</a><br>
+            <a href="login.html">Login</a><br>
+            </div>
+        
+    
+        
+            <div class="container3">
+            <h3>FOLLOW US</h3>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            </div>
+        
+        
+            <div class="container4"> 
+                <h3>A PRODUCT OF</h3>  
+            </div>
+        
+        </div>
+        
+    </div>
     </body>
     </html>
