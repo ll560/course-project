@@ -293,7 +293,7 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      color: #063C5E;
 }
  
-.all-images{
+#all-images{
      
      display:flex;
      flex-flow:row wrap;
@@ -306,13 +306,13 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      /* border: 5px solid black; */
 }
 
-.all-images a:hover{
+#all-images a:hover{
      color:purple;
  }
- .all-images a:link{
+ #all-images a:link{
      color:rgb(156, 46, 156);
  }
- .all-images a:visited{
+ #all-images a:visited{
      color:purple;
  }
 
@@ -433,8 +433,30 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
 }
 
 
+.last-three-comics{
+     display:none;
+}
 
 
+
+.last-three-comics.open{
+     display: flex;
+     flex-direction: row;
+     
+}
+
+
+.last-three-comics1{
+     display:none;
+}
+
+
+
+.last-three-comics1.open{
+     display: flex;
+     flex-direction: row;
+     
+}
 
 
 
