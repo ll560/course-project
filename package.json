@@ -1,0 +1,26 @@
+{
+  "name": "course-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ll560/CP_Home_1_ComicBook-.git"
+  },
+  "author": "Lisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ll560/CP_Home_1_ComicBook-/issues"
+  },
+  "homepage": "https://github.com/ll560/CP_Home_1_ComicBook-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2",
+    "dev": "nodemon app.js"
+  }
+    
+  }
+
