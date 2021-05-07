@@ -1,0 +1,62 @@
+<%- include('../partials/head') -%>
+    <div class="container1">
+        <i class="fa fa-bars"></i>
+        <%- include('../partials/nav') -%>
+    </div>
+    <div class="update-container">
+    <h1>UPDATE COMIC</h1>
+    <form action="https://www.w3schools.com/action_page.php"> 
+        
+        <div> 
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" value="title value stored in database">
+        </div>
+    
+    <br>
+        <div> 
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" value="author value stored in database">
+        </div>
+    <br>
+        <div>
+        <label for="publisher">Publisher</label>
+            <select name="publisher" id="publisher">
+                <option value="pubisher value stored in database">pubisher value stored in database</option>
+                <option value="boom! box">BOOM! BOX</option>
+                <option value="dc comics">DC COMICS</option>
+                <option value="harry n. abrams">Harry N. Abrams</option>
+                <option value="icon books">Icon Books</option>
+                <option value="image comics">Image Comics</option>
+                <option value="marvel">Marvel</option>
+                <option value="simon & schuster">Simon & Schuster</option>
+                <option value="Top Shelf">Top Shel Productions</option>
+                <option value="viz media llc">VIZ Media LLC</option>
+            </select>
+        </div>
+    <br>
+        <div> 
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" value="genre data stored in database">
+        </div>
+    <br>
+        <div> 
+            <label for="number of pages">Number of pages:</label>
+            <input type="text" id="number of pages" name="number of pages" value="255">
+        </div>
+    <br>
+        <div> 
+            <label for="rating">Rating:</label>
+            <input type="text" id="rating" name="rating" value="5">
+        </div>
+    <br>
+        <div> 
+            <label for="synopsis">Synopsis:</label>
+            <input type="text" id="synopsis" name="synopsis" value="synopsis value stored in database">
+        </div>
+    <br>
+    <input type="submit" class="button1" value="Submit">  
+</form>
+</div>
+<%- include('../partials/footer') -%>
+</body>
+</html>
