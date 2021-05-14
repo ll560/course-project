@@ -51,7 +51,7 @@ a:active{
      width: 100%;
      height: 55px;
 
-     background-image: url('/public/styles/CodeSquad-Comics-logo.png');
+     background-image: url('/images/CodeSquad-Comics-logo.png');
      background-size:250px; /*changes image size*/
      background-position: left;
      background-repeat: no-repeat;
@@ -325,14 +325,9 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      /* border: 5px solid red; */
 }
 
-.fun-home{
-     background-image: url('public/images/fun-home.jpg');
-     background-size: 160px;
-     background-repeat: no-repeat;
+.comic-img{
      width:160px;
      height:250px;   
- 
-     padding-bottom:90px
 }
  
 .watchmen{

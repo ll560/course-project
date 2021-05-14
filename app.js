@@ -13,7 +13,9 @@ app.use(morgan('combined'));
 // })
 const path = require('path');
 app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname, 'pages')));
+app.use(express.static(path.join(__dirname, 'public')));
+
+
 
 app.get('/', (request, response) =>{
     response.render('pages/index');
