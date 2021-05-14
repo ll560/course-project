@@ -21,14 +21,31 @@ app.get('/', (request, response) =>{
     response.render('pages/index');
 })
 
+
+app.get("/about", (request, response) =>{
+    response.render('pages/about');
+})
+
+app.get("/login", (request, response) =>{
+    response.render('pages/login');
+})
+
+app.get("/admin-console", (request, response) =>{
+    response.render('pages/admin');
+})
+
+app.get("/admin-console/create-book", (request, response) =>{
+    response.render('pages/create');
+})
+
 app.get('/books/:id', (request, response) => {
     const bookId = request.params.id;
-    response.send(`Displaying book with id of ${bookId}`);
+    response.render('pages/book');
 })
 
 app.get('/admin-console/update-book/:id', (request, response) => {
     const bookId = request.params.id;
-    response.send(`Displaying book with id of ${bookId}`);
+    response.render('pages/update');
 })
 
 
