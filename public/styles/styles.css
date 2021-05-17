@@ -30,7 +30,7 @@ a:active{
 }
 
  .nav-header{
-     /* background-image: url('CodeSquad-Comics-logo.png'); */
+     
      padding-top: 0px;
      
      margin-top: 0px;
@@ -244,6 +244,52 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
      background-color: #063C5E;
      color:white;
 }
+
+/* ----------------Book page----------------------- */
+.card{
+     border: 5px solid #FCCF14;
+     border-radius: 45px;
+     margin: 80px 0px 20px 70px;
+     background-color: #FFFFFF;
+     width: 70%;
+     height: auto;
+     background-position: center center;
+     margin-left: 70px;
+     padding-bottom: 30px;
+}
+
+.comic-card{
+     border: 5px solid #FCCF14;
+     width: 70%;
+     max-width: 900px;
+     height: auto;
+     max-height: 650px;
+
+     border-radius: 40px 40px 40px 40px;
+}
+
+.card-top{
+     /* border: 5px solid red; */
+     border-radius: 42px 42px 0px 0px;
+     height: auto;
+     max-height: 1300px;
+     text-align: center;
+     background-color: #063C5E;
+     color: #FCCF14;
+     padding-bottom: 40px;
+     
+}
+
+.card-bottom{
+     padding: 0px 15px;
+}
+
+.text-top{
+     padding-top: 10px;      
+ }
+
+
+
 /*---------------Create page-------------------------------*/
 .create-body{
      border: 5px solid #063C5E;
@@ -320,48 +366,24 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
  }
 
 .comic-text{ 
-     top:245px;
+     width:160px;
+     height:360px;
      position:relative;
      /* border: 5px solid red; */
 }
+
+
 
 .comic-img{
      width:160px;
      height:250px;   
 }
- 
-.watchmen{
-     background-image: url('public/images/watchmen.jpg');
-     background-size: 160px;
-     background-repeat: no-repeat;
+
+/* .lumberjanes{
      width:160px;
      height:250px;
-}
+} */
  
-.hunter{
-     background-image: url('public/images/hunter-x-hunter.jpg');
-     background-size: 160px;
-     background-repeat: no-repeat;
-     width:160px;
-     height:250px;
-     padding-bottom:90px;
-}
- 
-.lumberjanes{
-     background-image: url('public/images/lumberjanes.jpg');
-     background-size: 160px;
-     background-repeat: no-repeat;
-     width:160px;
-     height:250px;
-}
- 
-.one-piece{
-     background-image: url('public/images/one-piece.jpg');
-     background-size: 160px;
-     background-repeat: no-repeat;
-     width:160px;
-     height:250px;
-}
  
 .wake{
      background-image: url('public/images/wake.jpg');
@@ -432,8 +454,10 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
 
 .button3{
      background-color: #FCCF14;
-     
      width:30%;
+
+     position: relative;
+     left: 200px;
     
 
 }
