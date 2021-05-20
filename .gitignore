@@ -3,3 +3,5 @@
 .vscode/settings.json
 /starter-files
 *.log
+public/.DS_Store
+public/styles/.DS_Store
