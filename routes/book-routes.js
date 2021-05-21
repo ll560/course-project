@@ -1,8 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const bookController = require('../controllers/book-controller.js');
-const { route } = require('./admin-routes.js');
+// const { route } = require('./book-routes.js');
 
 
 router.route('/books/:id')
-    .get(bookController.all)
+// , (request, response) => {
+//     const bookId = request.params.id;
+//     response.render('pages/book');
+// })
+
+module.exports = router;

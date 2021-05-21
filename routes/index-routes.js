@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const adminRouter = require('./admin-routes.js');
+const adminRouter = require('./admin-routes');
 const bookRouter = require('./book-routes');
 const siteRouter = require('./site-routes');
 

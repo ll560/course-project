@@ -1,51 +1,26 @@
 const express = require('express');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
+const routes = require('./routes/index-routes')
+const path = require('path');
 
 const app = express();
-
 const PORT = 3000;
+
 app.use(morgan('combined'));
 
-const path = require('path');
+
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 //middleware
 app.use(methodOverride('_method'));
 app.use(morgan('dev'));
-
-app.get('/', (request, response) =>{
-    response.render('pages/index');
-})
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 
-app.get("/about", (request, response) =>{
-    response.render('pages/about');
-})
-
-app.get("/login", (request, response) =>{
-    response.render('pages/login');
-})
-
-app.get("/admin-console", (request, response) =>{
-    response.render('pages/admin');
-})
-
-app.get("/admin-console/create-book", (request, response) =>{
-    response.render('pages/create');
-})
-
-app.get('/books/:id', (request, response) => {
-    const bookId = request.params.id;
-    response.render('pages/book');
-})
-
-app.get('/admin-console/update-book/:id', (request, response) => {
-    const bookId = request.params.id;
-    response.render('pages/update');
-})
-
+app.use(routes);
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);

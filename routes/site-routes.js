@@ -3,17 +3,20 @@ const router = express.Router();
 const siteController = require('../controllers/site-controller.js');
 
 //homepage
-router.route('/')
+//site route
+router.route('/') 
     .get(siteController.all)
+// (request, response) =>{
+//     response.render('pages/index');
+// })
+
 
 
 //about page
-router.route('/about')
-    .get(siteController)
+router.route("/about" )
 
 
 //login page
-router.route('/login')
-    .get()
+router.route("/login")
 
 module.exports = router;
