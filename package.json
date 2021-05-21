@@ -20,7 +20,8 @@
     "nodemon": "^2.0.7",
     "uuid": "^8.3.2",
     "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "method-override": "^3.0.0"
   }
-    
-  }
-
+}
