@@ -13,10 +13,12 @@ router.route('/')
 
 
 //about page
-router.route("/about" )
+router.route("/about")
+    .get(siteController.about_get)
 
 
 //login page
 router.route("/login")
+    .get(siteController.login_get)
 
 module.exports = router;

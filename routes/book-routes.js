@@ -4,7 +4,8 @@ const bookController = require('../controllers/book-controller.js');
 // const { route } = require('./book-routes.js');
 
 
-router.route('/books/:id')
+router.route('/:id')
+    .get(bookController.book_detail_get)
 // , (request, response) => {
 //     const bookId = request.params.id;
 //     response.render('pages/book');

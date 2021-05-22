@@ -4,6 +4,7 @@
 
         <div class="container1">
             <i class="fa fa-bars"></i>
+            
             <%- include('../partials/nav') -%>
         </div>
     <div class="intro">
@@ -20,16 +21,10 @@
             <h2>COMPLETE COLLECTION</h2>
         </div>
     <div id="all-images">
-        <div class="comic-text">
-    <div class="fun-home"> 
-            <div><img class="comic-img" src="images/fun-home.jpg"/></div>
-            <span class="emphasis">Fun Home: A Family Tragicomic</span><br>
-            by Alsion Bechdel <br>
-            5 stars <br>
-            <a class="all-images__link" href="#">Details</a>
-        </div>
-    </div> 
-
+        <% data.forEach(comic => { %>
+        <%- include('../partials/single-book', { data: comic}) %>
+        <% }); %>
+<!--
     <div class="watchmen">
     
         <div class="comic-text">
@@ -54,7 +49,7 @@
     </div>
 </div>
 
-<!-- <div class="last-three-comics"> -->
+
 <div class="lumberjanes">
     <div class="comic-text">
         <div >
@@ -91,7 +86,7 @@
         <a class="all-images__link" href="#">Details</a>
     </div>
 </div>
-<!-- </div> -->
+ </div> 
 
 
 
@@ -170,7 +165,7 @@
         4 stars<br>
         <a class="all-images__link" href="#">Details</a>
     </div>
-</div>
+</div>-->
 
 </div> 
 

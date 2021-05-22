@@ -285,7 +285,8 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
 }
 
 .text-top{
-     padding-top: 10px;      
+     padding-top: 10px; 
+     font-size: 1.5rem;     
  }
 
 
@@ -335,6 +336,7 @@ tr:nth-child(odd){background-color: rgb(175, 175, 175);}
 .title{
      text-align: center; 
      color: #063C5E;
+     
 }
  
 .complete-title{

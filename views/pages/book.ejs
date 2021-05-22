@@ -9,23 +9,21 @@
     
         <div class="card-top">
          <div class="text-top">  
-        <p>FUN HOME: </p>A FAMILY TRAGIC COMIC</p>
-        <img class="comic-card" src="/images/fun-home.jpg"/>
+        <p><%= book.title %></p>
+        <img class="comic-card" src="/images/<%= book.image %>"/>
         </div>
     </div>
     
     <div class="card-bottom">
         <div class="title">
-            <p><b>Title: </b><i>Fun Home: A Family Tragicomic</i></div>
-        <div class="author"><p><b>Author:</b> Alison Bechdel</p> </div>
-        <div class="publisher"><p><b>Publisher:</b> Mariner Books</p></div>
-        <div class="genre"><p><b>Genre:</b> memoir </p></div>
-        <div class="number-of-pages"><b>Number of pages:</b> 232 </div>
-        <div><p><b>Rating:</b> 5 </p></div>
-    <div><b>Synopsis:</b> In this graphic memoir, Alison Bechdel charts her fraught relationship with her late father.</div>
+            <p><b>Title: </b><i><%= book.title %></i></div>
+        <div class="author"><p><b>Author:</b><%= book.author %></p> </div>
+        <div class="publisher"><p><b>Publisher:</b><%= book.publisher %></p></div>
+        <div class="genre"><p><b>Genre:</b> <%= book.genre %> </p></div>
+        <div class="number-of-pages"><b>Number of pages:</b><%= book.pages %></div>
+        <div><p><b>Rating:</b> <%= book.rating %> </p></div>
+    <div><b>Synopsis:</b> <%= book.synopsis %></div>
     
-    <div><p>Distant and exacting, Bruce Bechdel was an English teacher and director of the town funeral home, which Alison and her family referred to as the Fun Home. It was not until college that Alison, who had recently come out as a lesbian, discovered that her father was also gay. A few weeks after this revelation, he was dead, leaving a legacy of mystery for his daughter to resolve.
-    </p> </div>
 </div>
 
 </div>
