@@ -4,7 +4,7 @@ const data = require('../data');
 
 module.exports = {
 all: (request, response) => {
-    response.render('pages/index',{data: data}); //the first data is the one carried over to ejs
+    response.redirect('pages/index',{data: data}); //the first data is the one carried over to ejs
 },
 about_get: (request, response) => {
     response.render('pages/about');
