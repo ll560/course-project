@@ -6,10 +6,6 @@ const siteController = require('../controllers/site-controller.js');
 //site route
 router.route('/') 
     .get(siteController.all)
-// (request, response) =>{
-//     response.render('pages/index');
-// })
-
 
 
 //about page
