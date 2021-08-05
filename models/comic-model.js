@@ -13,6 +13,6 @@ const comicSchema = new Schema({
 }
 );
 
-const Comic = mongoose.model('Resource', comicSchema);
+const Comic = mongoose.model('Comic', comicSchema);
 
 module.exports = Comic;
