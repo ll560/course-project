@@ -17,4 +17,9 @@ router.route("/about")
 router.route("/login")
     .get(siteController.login_get)
 
+//register
+router.route("/register")
+    .get(siteController.register_get)
+    .post(siteController.register_post)
+
 module.exports = router;

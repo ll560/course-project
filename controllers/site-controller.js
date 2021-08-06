@@ -11,5 +11,17 @@ about_get: (request, response) => {
 },
 login_get:(request, response) => {
     response.render('pages/login');
+},
+register_get:(request, response) => {
+    response.render('pages/register')
+},
+
+register_post:(request, response) => {
+    const newUser = new User({
+        username: request.body.username,
+        password: request.body.password
+    })
+    newUser.save();
+    
 }
 }
