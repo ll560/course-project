@@ -16,6 +16,7 @@ router.route("/about")
 //login page
 router.route("/login")
     .get(siteController.login_get)
+    .post(siteController.login_post)
 
 //register
 router.route("/register")

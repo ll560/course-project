@@ -12,6 +12,20 @@ about_get: (request, response) => {
 login_get:(request, response) => {
     response.render('pages/login');
 },
+login_post:(request, reponse) => {
+    const username = request.body.username;
+    const password = request.body.password;
+    console.log(`password entered is ${password}`);
+    User.findOne({username: username}, (error, foundUser) =>{
+        if (error){
+            console.log(`the login error is ${error}`);
+        } else {
+            if (userfound) {
+                console.log(`username was matched: ${foundUser.username}`)
+            }
+        }
+    })
+},
 register_get:(request, response) => {
     response.render('pages/register')
 },
@@ -22,6 +36,6 @@ register_post:(request, response) => {
         password: request.body.password
     })
     newUser.save();
-    
+    response.redirect('pages/index')
 }
 }
