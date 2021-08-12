@@ -6,6 +6,11 @@ const siteController = require('../controllers/site-controller.js');
 //site route
 router.route('/') 
     .get(siteController.all)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2616a920b5e02cc959d889217127933e4ad12b6d
 
 
 //about page
