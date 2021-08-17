@@ -5,6 +5,7 @@ const {Schema} = mongoose;
 const userSchema = new Schema({
     username: {
         type:String,
+        minlength: [3, "Must be atleast 3 characters"],
     },
     password:{
         type:String,
